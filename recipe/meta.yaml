@@ -1,5 +1,5 @@
 {% set name = "text_models" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/text_models-{{ version }}.tar.gz
-  sha256: afc2381dd819cb299f2a71082db9d15c32a99908346180e5b29f9f7206aade3c
+  sha256: 5af48bb4f0d3a8656ee7e719f746168cded5be8fcf8296c0ee8233fff0ec8d78
 
 build:
   noarch: python
